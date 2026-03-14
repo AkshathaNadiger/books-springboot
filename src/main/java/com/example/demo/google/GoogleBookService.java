@@ -23,5 +23,14 @@ public class GoogleBookService {
                 .retrieve()
                 .body(GoogleBook.class);
     }
+
+    public GoogleBook.Item getGoogleVolume(String googleId) {
+        return restClient.get()
+                .uri(uriBuilder -> uriBuilder
+                        .path("/volumes/" + googleId)
+                        .build())
+                .retrieve()
+                .body(GoogleBook.Item.class);
+    }
 }
 
