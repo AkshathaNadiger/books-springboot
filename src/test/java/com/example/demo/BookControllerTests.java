@@ -12,6 +12,7 @@ import org.springframework.web.context.WebApplicationContext;
 import org.springframework.test.web.servlet.MockMvc;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -40,4 +41,21 @@ class BookControllerTests {
             .andExpect(jsonPath("$[0].title").value("Spring in Action"))
             .andExpect(jsonPath("$[1].title").value("Effective Java"));
     }
+
+    @Test
+    void testSaveBooks() throws Exception {
+        mockMvc.perform(post("/books/TTVu8A3K9ysC"))
+                .andExpect(status().isCreated())
+                .andExpect(jsonPath("id").value("TTVu8A3K9ysC"))
+                .andExpect(jsonPath("author").value("Peter Sestoft"))
+                .andExpect(jsonPath("pageCount").value("157"))
+                .andExpect(jsonPath("title").value("Java Precisely"));
+    }
+
+    @Test
+    void negativeTestSaveBooks() throws Exception {
+        mockMvc.perform(post("/books/randomABCD"))
+                .andExpect(status().isBadRequest());
+    }
+
 }
