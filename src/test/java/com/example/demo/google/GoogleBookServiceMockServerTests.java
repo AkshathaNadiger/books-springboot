@@ -48,6 +48,13 @@ class GoogleBookServiceMockServerTests {
                 .setResponseCode(200)
                 .addHeader("Content-Type", "application/json")
                 .setBody(body));
+
+        Path pathVolume = Paths.get("src", "test", "resources", "testVolume.json");
+        String bodyVolume = Files.readString(pathVolume);
+        server.enqueue(new MockResponse()
+                .setResponseCode(200)
+                .addHeader("Content-Type", "application/json")
+                .setBody(bodyVolume));
     }
 
     @Autowired
@@ -61,5 +68,16 @@ class GoogleBookServiceMockServerTests {
         assertThat(result.items()).isNotEmpty();
         GoogleBook.Item first = result.items().get(0);
         assertThat(first.volumeInfo().title()).isEqualTo("Effective Java");
+    }
+
+    @Test
+    void getGoogleVolume_mocked_returns() {
+        GoogleBook.Item result = googleBookService.getGoogleVolume("TTVu8A3K9ysC");
+        assertThat(result).isNotNull();
+        assertThat(result.id()).isEqualTo("TTVu8A3K9ysC");
+        assertThat(result.volumeInfo()).isNotNull();
+        assertThat(result.volumeInfo().authors()).isNotNull();
+        assertThat(result.volumeInfo().title()).isNotNull();
+        assertThat(result.volumeInfo().pageCount()).isNotNull();
     }
 }

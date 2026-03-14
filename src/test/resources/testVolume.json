@@ -1,0 +1,85 @@
+{
+  "kind": "books#volume",
+  "id": "TTVu8A3K9ysC",
+  "etag": "v29oGMF9Z6k",
+  "selfLink": "https://www.googleapis.com/books/v1/volumes/TTVu8A3K9ysC",
+  "volumeInfo": {
+    "title": "Java Precisely",
+    "authors": [
+      "Peter Sestoft"
+    ],
+    "publisher": "MIT Press",
+    "publishedDate": "2005",
+    "description": "\u003cp\u003eThis concise guide to the Java programming language, version 5.0, offers a quick reference for the reader who wants to know the language in greater detail than that provided by the standard text or language reference book. It presents the entire Java programming language and essential parts of the class libraries -- the collection classes and the input-output classes.\u003c/p\u003e \u003cp\u003eThe second edition adds material on autoboxing of primitive types, string formatting, variable-arity methods, the enhanced for statement, enum types, generic types and methods, reflection, and meta-data annotations. It has been updated throughout to reflect the changes from Java 1.4 to Java 5.0. The final section summarizes and illustrates the new features of Java 5.0 and compares them to the C# programming language. General rules are shown on left-hand pages and corresponding examples on right-hand pages. All examples are fragments of legal Java programs and the complete ready-to-run example programs can be found at the book's Web site, http://www.dina.kvl.dk/~sestoft/javaprecisely/.\u003c/p\u003e",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_10",
+        "identifier": "0262693259"
+      },
+      {
+        "type": "ISBN_13",
+        "identifier": "9780262693257"
+      }
+    ],
+    "readingModes": {
+      "text": false,
+      "image": true
+    },
+    "pageCount": 157,
+    "printedPageCount": 172,
+    "dimensions": {
+      "height": "23.00 cm",
+      "width": "20.30 cm",
+      "thickness": "1.10 cm"
+    },
+    "printType": "BOOK",
+    "categories": [
+      "Computers / Computer Science",
+      "Computers / Languages / Java",
+      "Computers / Internet / Web Programming"
+    ],
+    "averageRating": 4,
+    "ratingsCount": 3,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "4.4.7.0.preview.1",
+    "panelizationSummary": {
+      "containsEpubBubbles": false,
+      "containsImageBubbles": false
+    },
+    "imageLinks": {
+      "smallThumbnail": "http://books.google.com/books/content?id=TTVu8A3K9ysC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE713Kiz2KuR9iiPpl5bLfPUvgl9zTHdbVfvoENTEDWq8iRgqPXReVxpEPsv-eTizFJ9u7ZVcZ6Y8bDYQaPtkheJthm50sKt7nLGEfH61FL-vzo9HegCBAdqgiVLfyqmKy4tASgKL&source=gbs_api",
+      "thumbnail": "http://books.google.com/books/content?id=TTVu8A3K9ysC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71fSbYBdi63LTnG_8xwzSTfY2zHhoj2bolEgnVRx0drkiMB-LUV6lAxMBEaGEOlaSAEwR3Yzdal_RN22hUiDBS0k-l2A0NMRbP950Zf239spswd1sXOyNZBUQT9YAaMwVtjKj4d&source=gbs_api",
+      "small": "http://books.google.com/books/content?id=TTVu8A3K9ysC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70YJPawmhxRwQ02ufo6hQt-iO3IhxMFQ02gQiSVL5eHwoycG9GufuoZMk1cOtvYZvw7jaeBEw1qzWzok6icfZHDy-HJtEn0rUZgO9sMR4MMshlqfVgRFce3PfEA9iClme7rxHXc&source=gbs_api",
+      "medium": "http://books.google.com/books/content?id=TTVu8A3K9ysC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70PxCCf31sOtOSv5Zj0RxJyyQ6Fk1I8QRvN5r_anRO0ql8ucjyWmkgDNi-1ZSHPOfSp39RPXeeS5FI5JB3QIVmi3K14uYw4Kat7PS5lD35rqzXs1wk-RhE0yOWLSYh8WrQZnFxl&source=gbs_api",
+      "large": "http://books.google.com/books/content?id=TTVu8A3K9ysC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72M4PYw0ChrfUnUYZY6hMsn33zDKoiXmt5pjtH7QbS_qc3mOnA-fXcXEuOpediUoHfcCh0uyZCmcZf6mZrSxb7TxCChsHcgoMeepUJaJ5JIeTdT2PSsk9WkDjCPTkWDObbKyWNO&source=gbs_api",
+      "extraLarge": "http://books.google.com/books/content?id=TTVu8A3K9ysC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73VkMKV4373PTkMXeJ1cbFSkhverKuidfN36J9Bj6kX8AyBCj6cOMvqp_nxBhAdTDvIeejqqTe2-XSqO90-KnsaXiTWKQMlzJxcGQSGNRKrmw4ZkCaEQdJX3Ndqo8kRtmD9h_2t&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.in/books?id=TTVu8A3K9ysC&hl=&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=TTVu8A3K9ysC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=TTVu8A3K9ysC"
+  },
+  "saleInfo": {
+    "country": "IN",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+  },
+  "accessInfo": {
+    "country": "IN",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+      "isAvailable": false
+    },
+    "pdf": {
+      "isAvailable": true,
+      "acsTokenLink": "http://books.google.co.in/books/download/Java_Precisely-sample-pdf.acsm?id=TTVu8A3K9ysC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=TTVu8A3K9ysC&hl=&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+  }
+}
